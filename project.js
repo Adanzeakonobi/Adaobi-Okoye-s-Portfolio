@@ -24,7 +24,7 @@ let projectsArray = [
       languages: ['Rails', 'Bootstrap', 'Ruby '],
       livelink: 'https://personal-budgetlist.herokuapp.com/',
       sourcelink: 'https://github.com/Adanzeakonobi/Budget_App.git',
-      image:"Images/transations.png",
+      image:"Images/Transations.png",
     },
     {
       title: 'Space Travel',
@@ -32,7 +32,7 @@ let projectsArray = [
       languages: ['HTML', 'CSS', 'React', 'Redux'],
       livelink: 'https://space-travelers-hubby.netlify.app/',
       sourcelink: 'https://github.com/Adanzeakonobi/Space--Travelers-App.git',
-      image:"Images/space-travel.png",
+      image:"Images/Space-travel.png",
     },
     {
       title: 'Covid-19 Update',
