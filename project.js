@@ -1,6 +1,3 @@
-const source = 'sourcelink';
-const live = 'livelink';
-
 let projectsArray = [
     {
         title: 'Vehicle Booking App',
@@ -51,9 +48,6 @@ let projectsArray = [
       image:"Images/conference.png",
     },
   ];
-
-
-  
 
 const projectContainer = document.querySelector('.projects-container');
 
