@@ -101,9 +101,10 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  background-color: var(--bg-color);
 }
 
-.hero img {
+.hero-img {
   height: 25rem;
   width: 30rem;
   border-radius: 20px;
@@ -146,6 +147,21 @@ nav ul li {
   border: 1px solid transparent;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
+}
+
+.social-media {
+  left: 6.5%;
+  flex-direction: column;
+  position: static;
+}
+
+.social-media-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.social-media-icon img {
+  padding-bottom: 10px;
 }
 
 /* .more-about {
@@ -479,7 +495,7 @@ nav ul li {
     gap: 0;
   }
 
-  .hero img {
+  .hero-img {
     height: 15rem;
     width: 15rem;
   }
@@ -492,6 +508,13 @@ nav ul li {
   .bio {
     margin-top: 10px;
     width: 80%;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 25px;
   }
 
   .skill-header {
