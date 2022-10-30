@@ -2,7 +2,7 @@ let projectsArray = [
     {
         title: 'Vehicle Booking App',
         description: "An App where people can rent or book any vintage vehicle of their choice for the number of days they want. Utilizes React-Redux and Ruby on Rails.",
-        languages: ['html', 'Bootstrap', 'Ruby', 'React', 'Crypto-js', 'Axios'],
+        languages: ['Bootstrap', 'Ruby', 'React', 'Crypto-js', 'Axios'],
         livelink: 'https://bookit-fe.netlify.app/',
         sourcelink: 'https://github.com/Adanzeakonobi/bookit-fe.git',
         image:"Images/bookit.png",
@@ -55,7 +55,10 @@ projectsArray.forEach(project => {
     console.log(project);
     projectContainer.innerHTML += `
     <div class="project-card">
-        <img src="${project.image}" alt="" class="project-pic">
+    <div style="background-image: url(${project.image}); width: 100%; height: 230px; background-size: cover ">
+     
+      </div>
+        
         <div class="content">
             <h3 class="project-name">${project.title}</h3>
             <p class="workgridp2">${project.description}</p>

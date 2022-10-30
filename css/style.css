@@ -233,26 +233,16 @@ nav ul li {
 
 .project-pic {
   width: 100%;
-  height: 50%;
+  height: 55%;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
 }
 
-/* .projects-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
-
 .projects-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
-  /* grid-template-rows: 435px 435px; */
-  gap: 24px;
-  margin: 24px 40px 0 40px;
-
-  /* height: 100%; */
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 24px 60px 0 60px;
   padding-bottom: 30px;
 }
 
@@ -268,7 +258,7 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  height: 400px;
+  height: 460px;
   min-width: 100%;
 }
 
@@ -285,7 +275,7 @@ nav ul li {
 }
 
 .tags {
-  font-size: 14px;
+  font-size: 20px;
   background-color: #a5afaf;
   border-radius: 4px;
   box-shadow: 0 3px 10px var(--primary-shadow);
@@ -293,7 +283,7 @@ nav ul li {
 }
 
 .workgridp2 {
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Inter", serif;
   margin-bottom: 5px;
   margin-top: 5px;
