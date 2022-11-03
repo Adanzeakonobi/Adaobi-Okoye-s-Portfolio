@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Adaobi | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Adaobi Okoye</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+        <!-- <a href="#" class="burger-menu" onclick="toggle()">
+          <img id="burger-menu" src="assets/hamburger.svg" alt="Menu" />
+        </a>  -->
+  </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img src="assets/ookoye-adaobi-pic11.jpg" alt="Adaobi" loading="lazy" class="hero-img"/>
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            Hello I'm a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience! If
+              you like what you see and have a project you need coded, don't
+              hestiate to contact me.!
+          </p>
+            <a href="https://drive.google.com/file/d/18M_lSpcIS4_5ka-AkvSbGmw6VuFboqaI/view?usp=sharing" class="get-resume">
+                Get My Resume
+            </a>
+        </div>
+        <ul class="social-media">
+          <li>
+            <a href="https://github.com/Adanzeakonobi" class="social-media-icon">
+              <img src="./icons/github.png" alt="Github" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/okoye-ada/"  class="social-media-icon">
+              <img src="./icons/Linkedin.png" alt="Linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://angel.co/u/okoye-adaobi-vivian" class="social-media-icon">
+              <img src="./icons/angel.png" alt="Angel" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/AdaEbubeMmuta?t=7T3kPNKPaoou6drWyDnQpg&s=09" class="social-media-icon">
+              <img src="./icons/twitter.png" alt="Twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@viviluv.20147" class="social-media-medium-icon">
+              <img
+                class="image-correction"
+                src="./icons/medium.png"
+                alt="Medium"
+              />
+            </a>
+          </li>
+        </ul>
+  </section>
+
+    <!-- More about -->
+    <!-- <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+        </p>
+      </section> -->
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+  
+        <div class="skills-wrapper">
+            <ul class="technologies">
+                <li class="tech-title font-inter">
+                  <img src="./Skeleton/diamond.png" alt="diamond" />
+                  <div class="text-white">Language</div>
+                </li>
+                <li class="tech">Javascript</li>
+                <li class="tech">Ruby</li>
+                <li class="tech">HTML</li>
+                <li class="tech">Css</li>
+              </ul>
+              <ul class="technologies">
+                <li class="tech-title">
+                  <img src="./Skeleton/Rectangle.png" alt="rectangle" />
+                  <div class="text-white">Frameworks</div>
+                </li>
+                <li class="tech">Bootstrap</li>
+                <li class="tech">Ruby on Rails</li>
+                <li class="tech">RSPec</li>
+                <li class="tech">CapyBara</li>
+                <li class="tech">Selenium</li>
+              </ul>
+              <ul class="technologies">
+                <li class="tech-title">
+                  <img src="./Skeleton/circle.png" alt="circle" />
+                  <div class="text-white">Skills</div>
+                </li>
+                <li class="tech">Codekitt</li>
+                <li class="tech">Github</li>
+                <li class="tech">Codepen</li>
+                <li class="tech">Gitlab</li>
+                <li class="tech">Terminal</li>
+              </ul>
+        </div>
+      </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">My Recent Projects</h2>
+        <div class="projects-container">
+          <!-- <div class="project-container project-card">
+            <img
+              src="assets/images/expenseTracker.png"
+              alt="expense-tracker"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Expense Tracker</h3>
+            <p class="project-details">
+              Lorem
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/netflixClone.png"
+              alt="netflic-clone"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Netflix Clone</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/greenyEarth.png"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Greeny Earth</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div> -->
+        </div>
+      </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xwkznjbl" method="POST" id="form">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+              <p class="message-error">Email format has to be lowercase</p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <footer class="social-footer-social">
+        <div class="foot">
+          <hr class="foot-separater" />
+        </div>
+        <div class="social-media-icon1">
+          <a href="https://github.com/Adanzeakonobi" class="social-link">
+            <img class="social-icon" src="./icons/github.png" alt="GitHub" />
+          </a>
+          <a href="https://www.linkedin.com/in/okoye-ada/" class="social-link">
+            <img
+              class="social-icon"
+              src="./icons/Linkedin.png"
+              alt="LinkedIn"
+            />
+          </a>
+          <a href="https://angel.co/u/okoye-adaobi-vivian" class="social-link"> 
+            <img class="social-icon" src="./icons/angel.png" alt="Angel" />
+          </a>
+          <a href="https://twitter.com/AdaEbubeMmuta?t=7T3kPNKPaoou6drWyDnQpg&s=09" class="social-link">
+            <img class="social-icon" src="./icons/twitter.png" alt="Twitter" />
+          </a>
+          <a href="https://medium.com/@viviluv.20147" class="social-link">
+            <img class="social-icon" src="./icons/medium.png" alt="Medium" />
+          </a>
+        </div>
+        <div class="copyrigth">
+            <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/AdaEbubeMmuta?t=7T3kPNKPaoou6drWyDnQpg&s=09">Okoye Adaobi</a>
+      </p>
+      </div>
+      </footer>
+
+    <!-- Scroll to top -->
+
+    <!-- Footer section -->
+
+    <!-- Website scripts -->
+    <!-- <script src="assets/js/app.js"></script> -->
+    <script src="project.js"></script>
+    <script src="index.js"></script>
+    <!-- <script src="server.js"></script> -->
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

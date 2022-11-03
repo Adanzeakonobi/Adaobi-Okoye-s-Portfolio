@@ -1,25 +1,26 @@
-# curriculum-databases-projects-template
+# My Portfolio
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> This is my personal portfolio built using HTML,CSS and Javascript to display my recent projects and skills.
 
 
-## Getting Started
+## View The Project here
+
+[Live Demo Link](https://adanzeakonobi.github.io/Adaobi-Okoye-s-Portfolio/) 
+
+## Built With
+
+- HTML 5
+- CSS 3
+- Javascript
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Adaobi Vivian Okoye**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/adanzeakonobi)
+- Twitter: [@twitterhandle](https://twitter.com/Adaebubemmuta)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/okoyeaadaobi)
 
 ## 🤝 Contributing
 
@@ -36,7 +37,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
