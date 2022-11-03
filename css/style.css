@@ -129,6 +129,7 @@ nav ul li {
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  font-family: "Inter", serif;
 }
 
 .get-resume {
